@@ -1,7 +1,7 @@
 # AI-DungeonMaster
 
 
-'''console
+```console
 
 ========================================  ========================================
 You enter a dungeon with your trusty sword and shield. You are searching for the evil necromancer which you believe is at the lowest level of this dungeon. You know you will encounter goblins and ogres. You enter the first door and see 
@@ -33,7 +33,7 @@ You use your public address system so they can see the internet.
 2)  You use your phone.
 3)  You go to their website and give them your phone number.
 
-'''
+```
 
 ## Usage Instructions
 * Follow the below instructions to set up GPT-2 
