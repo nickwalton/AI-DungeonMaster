@@ -1,5 +1,12 @@
 # AI-DungeonMaster
 
+### AI Dungeon Master is a automatically generated text adventure. It generates results and actions based on action prompts fed to the GPT-2 Model. 
+
+
+## How to Play
+* Follow the instructions [here](https://lambdalabs.com/blog/run-openais-new-gpt-2-text-generator-code-with-your-gpu/) to set up GPT-2
+* Put the ai-dm.py file in the src folder of gpt-2.
+* Run "python ai-dm.py" and enjoy!
 
 ```
 
@@ -44,11 +51,4 @@ You use your public address system so they can see the internet.
 on their desktop.
 2)  You use your phone.
 3)  You go to their website and give them your phone number.
-
 ```
-
-## Usage Instructions
-* Follow the below instructions to set up GPT-2 
-https://lambdalabs.com/blog/run-openais-new-gpt-2-text-generator-code-with-your-gpu/
-* Put the ai-dm.py file in the src folder of gpt-2.
-* Run "python ai-dm.py" and enjoy!
