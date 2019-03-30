@@ -8,6 +8,8 @@
 * Put the ai-dm.py file in the src folder of gpt-2.
 * Run "python ai-dm.py" and enjoy!
 
+## Game Example
+
 ```
 ========================================  ========================================
 You enter a dungeon with your trusty sword and shield. You are searching for the evil necromancer which you believe
