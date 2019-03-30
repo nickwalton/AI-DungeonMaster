@@ -1,7 +1,7 @@
 # AI-DungeonMaster
 
 
-```console
+```
 
 ========================================  ========================================
 You enter a dungeon with your trusty sword and shield. You are searching for the evil necromancer which you believe is at the lowest level of this dungeon. You know you will encounter goblins and ogres. You enter the first door and see 
