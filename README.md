@@ -2,6 +2,7 @@
 
 
 '''console
+
 ========================================  ========================================
 You enter a dungeon with your trusty sword and shield. You are searching for the evil necromancer which you believe is at the lowest level of this dungeon. You know you will encounter goblins and ogres. You enter the first door and see 
  a strange human skeleton. You follow it until you reach a brief opening. This is the entrance to a giant ogre lair. At one point you may have seen the first of many ogres living inside a huge cavernous room. An ogres are feeding on you.
