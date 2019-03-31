@@ -4,7 +4,7 @@ import numpy as np
 from generator import StoryGenerator
 from story_tracker import StoryTracker
 import tensorflow as tf
-import utils
+from utils import *
 
 """
 Story flow:
@@ -16,6 +16,10 @@ Story flow:
 AI DM file handles high level interface functionality.
 StoryTracker keeps track of story and action blocks, it can return the action prompt and the story block prompt
 
+Dev Notes:
+- It seems anecdotally that a top_k of 40 actually is better. Would be good to experiment with it more though.
+
+
 """
 
 with tf.Session(graph=tf.Graph()) as sess:
@@ -25,7 +29,7 @@ with tf.Session(graph=tf.Graph()) as sess:
     
     # Print intro
     print("\n"+"=" * 40 + "  "+ "=" * 40) 
-    story_block = generator.generate(story_tracker.start_prompt)
+    story_block = generator.generate_story_block(story_tracker.start_prompt)
     print(story_tracker.start_prompt + story_block)
     
     while(True):
@@ -35,21 +39,29 @@ with tf.Session(graph=tf.Graph()) as sess:
         action_phrases = story_tracker.get_action_phrases()
         options = generator.generate_action_options(action_prompt, action_phrases)
         
-        print("\nYou can:")
+        print("\nOptions:")
         for i, option in enumerate(options):
 
             print(str(i)+") ", option)
             
         choice = input("Which do you choose? (0/1/2/3) ")
-        # TODO handle invalid selections
         print(" ")
-        chosen_action = options[int(choice)]
+        
+        
+        # TODO handle invalid selections
+        if "custom" in choice:
+            choice = input("What custom action would you like to take? ")
+            print("")
+            chosen_action = choice
+        else: 
+            chosen_action = options[int(choice)]
+            
         print(chosen_action)
         print(" ")
         
         
         # Get next story_block based on selected action
-        story_prompt = story_tracker.get_story_prompt(options[chosen_action])
-        story_block = generator.generate(story_prompt)
+        story_prompt = story_tracker.get_story_prompt(chosen_action)
+        story_block = generator.generate_story_block(story_prompt)
         print(story_block)
         

@@ -6,11 +6,12 @@ import tensorflow as tf
 import gpt2.src.model as model
 import gpt2.src.sample as sample
 import gpt2.src.encoder as encoder
+from utils import *
 
 
 class StoryGenerator():
 
-    def __init__(self, sess, length=80, temperature=0.9, top_k=0):
+    def __init__(self, sess, length=80, temperature=0.8, top_k=40):
     
         seed = None
         batch_size=1
@@ -45,12 +46,19 @@ class StoryGenerator():
         text = self.enc.decode(out[0])
         return text
         
+    def generate_story_block(self, prompt):
+        block = self.generate(prompt)
+        block = cut_trailing_sentence(block)
+        block = story_replace(block)
+        
+        return block
         
     def generate_action_options(self, prompt, action_starts):
     
         possible_actions = []
         for phrase in action_starts:
-            action = self.generate(prompt + phrase)
+            action = phrase + self.generate(prompt + phrase)
+            action = first_sentence(action)
             possible_actions.append(action)
             
         return possible_actions
