@@ -27,7 +27,9 @@ Which do you choose? (0/1/2/3) 1
  
 You tell them that you are really about to find out how the world around you is going to end.
  
- The world that you're in is a trail of corpses and you can't get to it because you're in a black circle on a black line. Instead, you are in a well that allows you to give a better view of the world around you.The 【Bouncing Arrow】 will strike your left or right hand.
+ The world that you're in is a trail of corpses and you can't get to it because you're in a black circle on a black line.
+ Instead, you are in a well that allows you to give a better view of the world around you.The 【Bouncing Arrow】 will strike
+ your left or right hand.
 ========================================  ========================================
 0)  You attack 【Bouncing Arrow】 from the direction you wish.
 1)  You tell them you are here and they quickly retreat.
