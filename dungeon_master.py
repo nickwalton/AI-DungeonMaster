@@ -29,6 +29,24 @@ with tf.Session(graph=tf.Graph()) as sess:
     
     # Print intro
     print("\n"+"=" * 40 + "  "+ "=" * 40) 
+    
+    possible_stories = story_tracker.get_possible_stories()
+    
+    
+    
+    
+    while True:
+        print("Select an adventure to play or press enter to play the default [dungeon]. ")
+        print(possible_stories)
+        choice = input("Which do you choose? ").strip()
+        if choice is "":
+            choice = "dungeon"
+        if choice in possible_stories:
+            break
+    print("")
+    story_tracker.select_story(choice)
+    
+    
     story_block = generator.generate_story_block(story_tracker.start_prompt)
     print(story_tracker.start_prompt + story_block)
     
@@ -44,7 +62,14 @@ with tf.Session(graph=tf.Graph()) as sess:
 
             print(str(i)+") ", option)
             
-        choice = input("Which do you choose? (0/1/2/3) ")
+        
+        valid_choices = ["0","1","2","3"]
+        while True:
+            choice = input("Which do you choose? (0/1/2/3) ")
+            if choice in valid_choices:
+                break
+            else:
+                print("Invalid selection.")
         print(" ")
         
         

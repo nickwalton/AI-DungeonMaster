@@ -8,14 +8,27 @@ replacements:
 
     All
         "punctuation with no space. add a space
+        "remove any # and - and _'s
 
 """
 
+
+def remove_profanity(text):
+    remove_words = ["fuck", "Fuck"]
+    for word in remove_words:
+        text = text.replace(word, "")
+        
+    return text
+    
 def all_replace(text):
     text = text.replace("I ","you ")
     text = text.replace("we ","you ")
     text = text.replace("We ","You ")
     text = text.replace(" mine"," yours")
+    text = text.replace("#","")
+    
+    text = remove_profanity(text)
+    
     return text
     
     
