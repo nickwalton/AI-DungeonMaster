@@ -19,11 +19,12 @@ pip install tensorflow-gpu==1.12
 
 ## Download the GPT-2 Model
 ```
-cd AI-DungeonMaster
+cd AI-DungeonMaster/gpt2
 python download_model.py 117M
 ```
 
 ## Run the Game
 ```
+cd ..
 python dungeon_master.py
 ```
