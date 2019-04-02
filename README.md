@@ -22,7 +22,7 @@ you can use to attack the hideous necromancer.
 1)  You tell them that you are really about to find out how the world around you is going to end.
 2)  You use your bitumen silver spear to hit them, and now they all laugh at you.
 3)  You go out and walk into the dungeon.
-Which do you choose? (0/1/2/3) 1
+\Which do you choose? (0/1/2/3) 1
  
 You tell them that you are really about to find out how the world around you is going to end.
  
@@ -33,8 +33,8 @@ You tell them that you are really about to find out how the world around you is 
 0)  You attack 【Bouncing Arrow】 from the direction you wish.
 1)  You tell them you are here and they quickly retreat.
 2)  You use the inhaling arrows to add flying effects to your body.
-3)  You go for a hit or two, but they didn't catch you?You're in a battle that's not long.
-Which do you choose? (0/1/2/3) 2
+3)  You go for a hit or two, but they didn't catch you?You're in a battle that's not long. 
+\Which do you choose? (0/1/2/3) 2
  
 You use the inhaling arrows to add flying effects to your body.
  
@@ -45,7 +45,7 @@ You use the inhaling arrows to add flying effects to your body.
 1)  You tell them to attack you, this will increase the time you need to travel.
 2)  You use this time to teleport you to the center of the world.
 3)  You go after themYou reveal yourself and use the 【Bouncing Arrow】 to teleport you to the center of the world.
-Which do you choose? (0/1/2/3) 3
+\Which do you choose? (0/1/2/3) 3
  
 You go after themYou reveal yourself and use the 【Bouncing Arrow】 to teleport you to the center of the world.
  
@@ -63,7 +63,7 @@ they will take a hit.
 2)  You use【Bouncing Arrow】 to increase the distance you need to travel.
 3)  You go to the scene of the eventYou useYou activate the upgradeThe weapon you use to master your weapon, the
 projectile you use to upgrade nearby enemiesYou useyou useYou summon these demon counterparts of your team.
-Which do you choose? (0/1/2/3) 0
+\Which do you choose? (0/1/2/3) 0
  
 You attack 【New Character】【Black Dragon Hat】, 【Silver Hero's Hat】 and 【Great Helm】 with a melee attack, and 
 they will take a hit.
@@ -74,7 +74,7 @@ The 【Bouncing Arrow】 is an effective counter to 【Bouncing Arrow】 because
 1)  You tell them that the ability to use the 【Bouncing Arrow】 was a bit late.
 2)  You use this followup move after you complete from the left to the right.
 3)  You go to the moonYou are in the middle of the moonYou are towards the bottom of the moonYou are towards the top of the moonYou can do this by making a circle on the ground and a line along your shoulders.
-Which do you choose? (0/1/2/3) 3
+\Which do you choose? (0/1/2/3) 3
  
 You go to the moonYou are in the middle of the moonYou are towards the bottom of the moonYou are towards the top of the moonYou can do this by making a circle on the ground and a line along your shoulders.
  
@@ -87,7 +87,7 @@ circle along the ground and a line along your shoulders.So now it's time to make
 2)  You use force to block and create a line from your right hand, an angle that you would call counter-clockwise, 
 to your left, to your left.
 3)  You go to the right center(continuing until you hit the floor)and open your chest and you make the circle.
-Which do you choose? (0/1/2/3) 2
+\Which do you choose? (0/1/2/3) 2
  
 You use force to block and create a line from your right hand, an angle that you would call counter-clockwise, 
 to your left, to your left.
@@ -101,7 +101,7 @@ to make a circle from your left to right.
 you need to block and create a line from your right hand to your right body.
 2)  You use force to block and create a line through your left body to your right body.
 3)  You go to the center, that's where the against attack is actually coming from.
-Which do you choose? (0/1/2/3) 3
+\Which do you choose? (0/1/2/3) 3
  
 You go to the center, that's where the against attack is actually coming from.
  
