@@ -4,9 +4,16 @@
 
 
 ## How to Install
-*
+```
+git clone http://github.com/nickwalton/AI-DungeonMaster
+pip install regex
+pip install numpy
+pip install tensorflow
+cd AI-DungeonMaster
+python download_model.py
+```
 
-
-* Follow the instructions [here](https://lambdalabs.com/blog/run-openais-new-gpt-2-text-generator-code-with-your-gpu/) to set up GPT-2
-* Put the ai-dm.py file in the src folder of gpt-2.
-* Run "python ai-dm.py" and enjoy!
+## How to Run
+```
+python dungeon_master.py
+```
