@@ -3,18 +3,16 @@
 ### AI Dungeon Master is an automatically generated text adventure. It generates results and actions based on action prompts fed to the GPT-2 Model. 
 
 
-## How to Install
+## Installation
 ```
 git clone http://github.com/nickwalton/AI-DungeonMaster
 pip install regex
 pip install numpy
-```
-### Either Install CPU Tensorflow
-```
 pip install tensorflow
 ```
 
-### Or install GPU Tensorflow (faster) but requires CUDA
+## (Optional) tensorflow-gpu
+For faster performance you can instead install tensorflow-gpu, but you'll also need up to date nvidia graphics drivers and cuda. 
 ```
 pip install tensorflow-gpu==1.12
 ```
