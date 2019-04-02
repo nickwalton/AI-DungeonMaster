@@ -8,6 +8,7 @@ git clone http://github.com/nickwalton/AI-DungeonMaster
 pip install regex
 pip install numpy
 pip install tensorflow
+pip install tqdm
 ```
 
 ## (Optional) tensorflow-gpu
