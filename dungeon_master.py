@@ -27,12 +27,14 @@ with tf.Session(graph=tf.Graph()) as sess:
     generator = StoryGenerator(sess)
     story_tracker = StoryTracker()
     
+    for i in range(40):
+        print("")
+    
     # Print intro
     print("\n"+"=" * 40 + "  "+ "=" * 40) 
+    print("Welcome to AI dungeon, a dream like adventure in an AI generated world. use 0-4 to select actions and press s to save your adventure to a txt file and quit.") 
     
     possible_stories = story_tracker.get_possible_stories()
-    
-    
     
     
     while True:
@@ -51,7 +53,8 @@ with tf.Session(graph=tf.Graph()) as sess:
     print(story_tracker.start_prompt + story_block)
     
     while(True):
-        
+    
+        print("\n"+"=" * 40 + "  "+ "=" * 40) 
         # Get action prompt and generate possible actions
         action_prompt = story_tracker.get_action_prompt(story_block)
         action_phrases = story_tracker.get_action_phrases()
@@ -63,26 +66,27 @@ with tf.Session(graph=tf.Graph()) as sess:
             print(str(i)+") ", option)
             
         
-        valid_choices = ["0","1","2","3"]
+        valid_choices = ["0","1","2","3","s"]
         while True:
             choice = input("Which do you choose? (0/1/2/3) ")
             if choice in valid_choices:
                 break
             else:
                 print("Invalid selection.")
-        print(" ")
         
-        
-        # TODO handle invalid selections
         if "custom" in choice:
             choice = input("What custom action would you like to take? ")
             print("")
             chosen_action = choice
+        elif choice is "s":
+            with open("Adventure.txt", "w") as text_file:
+                text_file.write(story_tracker.get_whole_story())
+            exit()
         else: 
             chosen_action = options[int(choice)]
             
         print(chosen_action)
-        print(" ")
+        print("")
         
         
         # Get next story_block based on selected action

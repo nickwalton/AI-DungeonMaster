@@ -11,7 +11,7 @@ from utils import *
 
 class StoryGenerator():
 
-    def __init__(self, sess, length=80, temperature=0.8, top_k=40):
+    def __init__(self, sess, length=80, temperature=0.9, top_k=40):
     
         seed = None
         batch_size=1
