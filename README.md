@@ -1,7 +1,6 @@
 # AI-DungeonMaster
 
-### AI Dungeon Master is an automatically generated text adventure. It generates results and actions based on action prompts fed to the GPT-2 Model. 
-
+### AI Dungeon Master is an automatically generated text adventure that uses the GPT-2 model (smaller version) to generate completely AI made text adventures. 
 
 ## Installation
 ```
