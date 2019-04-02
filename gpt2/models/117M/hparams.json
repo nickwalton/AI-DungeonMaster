@@ -1,7 +1,1 @@
-{
-  "n_vocab": 50257,
-  "n_ctx": 1024,
-  "n_embd": 768,
-  "n_head": 12,
-  "n_layer": 12
-}
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>Anonymous caller does not have storage.objects.get access to gpt-2/gpt2/models/117M/hparams.json.</Details></Error>

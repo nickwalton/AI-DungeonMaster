@@ -1,6 +1,3 @@
-import json
-import os
-import numpy as np
 from generator import StoryGenerator
 from story_tracker import StoryTracker
 import tensorflow as tf

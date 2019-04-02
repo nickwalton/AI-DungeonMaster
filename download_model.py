@@ -9,7 +9,7 @@ if len(sys.argv) != 2:
 
 model = sys.argv[1]
 
-subdir = os.path.join('models', model)
+subdir = os.path.join('gpt2','models', model)
 if not os.path.exists(subdir):
     os.makedirs(subdir)
 subdir = subdir.replace('\\','/') # needed for Windows
