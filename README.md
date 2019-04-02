@@ -1,12 +1,28 @@
 # AI-DungeonMaster
 
-### AI Dungeon Master is an automatically generated text adventure. It generates results and actions based on action prompts fed to the GPT-2 Model. 
+### AI Dungeon Master is an automatically generated text adventure that uses the GPT-2 model (smaller version) to generate completely AI made text adventures. 
 
+## Installation
+```
+git clone http://github.com/nickwalton/AI-DungeonMaster
+pip install regex
+pip install numpy
+pip install tensorflow
+```
 
-## How to Install
-*
+## (Optional) tensorflow-gpu
+For faster performance you can instead install tensorflow-gpu, but you'll also need up to date nvidia graphics drivers and cuda. 
+```
+pip install tensorflow-gpu==1.12
+```
 
+## Download the GPT-2 Model
+```
+cd AI-DungeonMaster
+python download_model.py 117M
+```
 
-* Follow the instructions [here](https://lambdalabs.com/blog/run-openais-new-gpt-2-text-generator-code-with-your-gpu/) to set up GPT-2
-* Put the ai-dm.py file in the src folder of gpt-2.
-* Run "python ai-dm.py" and enjoy!
+## Run the Game
+```
+python dungeon_master.py
+```
