@@ -10,13 +10,12 @@
 
 ## Game Example
 
-```
-> ========================================  ========================================
-> You enter a dungeon with your trusty sword and shield. You are searching for the evil necromancer which you believe
-> is at the lowest level of this dungeon. You know you will encounter goblins and ogres. You enter the first door and see 
-> 【The Demon King's Arena】. You enter it and enter the dungeon yourself. The easiest way to fight this evil creature is 
-> to kill it with your bitumen silver spear. After you defeat it, you will automatically get an 【Bouncing Arrow】 which 
-> you can use to attack the hideous necromancer.
+========================================  ========================================
+You enter a dungeon with your trusty sword and shield. You are searching for the evil necromancer which you believe
+is at the lowest level of this dungeon. You know you will encounter goblins and ogres. You enter the first door and see 
+【The Demon King's Arena】. You enter it and enter the dungeon yourself. The easiest way to fight this evil creature is 
+to kill it with your bitumen silver spear. After you defeat it, you will automatically get an 【Bouncing Arrow】 which 
+you can use to attack the hideous necromancer.
  
 ========================================  ========================================
 0)  You attack 【Curse】 to open the gate for the ogres.
@@ -117,4 +116,3 @@ You go to the center, that's where the against attack is actually coming from.
 until the stick is straight.
 3)  You go in a direction with the button in your hand, the button takes you in into the object.
 
-```
